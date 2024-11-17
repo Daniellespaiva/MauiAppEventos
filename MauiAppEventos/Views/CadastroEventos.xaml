@@ -116,10 +116,6 @@
                         <Label Text="Valor Total:" 
                                TextColor="White"/>
                         
-                        <Label Text="{Binding ValorTotal,  StringFormat='{}{0:c}'}"
-                               TextColor="White"/>
-                    </HorizontalStackLayout>
-                </Frame>  
             </VerticalStackLayout>
         </Frame>
 

@@ -7,7 +7,6 @@ namespace MauiAppEventos
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Views.CadastroEventos());
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
@@ -21,6 +20,4 @@ namespace MauiAppEventos
             return window;
         }
 
-    }
-}
 
